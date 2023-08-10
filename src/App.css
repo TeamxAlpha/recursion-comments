@@ -1,0 +1,36 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.comment {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.replies {
+  margin-left: 20px;
+}
+
+.add-comment, .add-reply {
+  margin-top: 10px;
+  display: flex;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
